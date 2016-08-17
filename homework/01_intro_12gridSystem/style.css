@@ -1,6 +1,6 @@
 @charset "utf-8";
 .grid{width: 960px;}
-.box{height: 50px; float: left;}
+.box{height: 50px; border:1px solid black; float: left; box-sizing: border-box;}
 .col-1{width: 80px;background:red}
 .col-2{width: 160px; background:orange;}
 .col-3{width: 240px; background:yellow;}
